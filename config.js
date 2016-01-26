@@ -23,6 +23,8 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.35",
     "core-js": "npm:core-js@1.2.6",
     "gsap": "npm:gsap@1.18.2",
+    "gsap-draw-plugin": "vendor/DrawSVGPlugin",
+    "gsap-text-plugin": "vendor/TextPlugin",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
