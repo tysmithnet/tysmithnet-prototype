@@ -3,6 +3,14 @@
 <head>
     <script src="jspm_packages/system.src.js"></script>
     <script src="config.js"></script>
+    <style>
+        #block {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+    </style>
     <script>
         System.import('app/app').then(function(app){
            app.default.init(); 
@@ -11,7 +19,7 @@
 </head>
 
 <body>
-
+    <div id="block"></div>
 </body>
 
 </html>
