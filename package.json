@@ -18,6 +18,7 @@
   "homepage": "https://github.com/tysmithnet/tysmithnet-prototype#readme",
   "jspm": {
     "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.9",
       "gsap": "npm:gsap@^1.18.2"
     },
     "devDependencies": {

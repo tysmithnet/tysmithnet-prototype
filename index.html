@@ -4,23 +4,17 @@
     <script src="jspm_packages/system.src.js"></script>
     <script src="config.js"></script>
     <style>
-        #block {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            background-color: red;
-        }
+        
     </style>
     <script>
-        System.import('app/app').then(function(app){
-           app.default.init(); 
-        });
+        System.import('app/app.module');
     </script>
 </head>
 
-<body>
-    <div id="block"></div>
-    <p id="text"></p>
+<body ng-app="app">
+    <div ng-controller="HomeController">
+        {{greeting}}
+    </div>
 </body>
 
 </html>

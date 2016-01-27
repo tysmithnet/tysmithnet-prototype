@@ -8,17 +8,19 @@ System.config({
       "optimisation.modules.system"
     ]
   },
-  packages: {
-    "app": {
-        defaultExtensions: "js"
-    }  
-  },
   paths: {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
 
+  packages: {
+    "app": {
+      "defaultExtensions": "js"
+    }
+  },
+
   map: {
+    "angular": "github:angular/bower-angular@1.4.9",
     "babel": "npm:babel-core@5.8.35",
     "babel-runtime": "npm:babel-runtime@5.8.35",
     "core-js": "npm:core-js@1.2.6",
