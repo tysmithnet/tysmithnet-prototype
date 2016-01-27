@@ -1,6 +1,7 @@
 import angular from 'angular';
-import AppModule from './app.module'; 
+import './app.module'; 
+import './home/home.controller';
 
 angular.element(document).ready(() => {
-    angular.bootstrap(document, ['app.module']);
+    angular.bootstrap(document, ['app']);
 });
