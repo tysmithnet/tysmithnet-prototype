@@ -1,14 +1,14 @@
 import angular from 'angular';
-import app from '../app.module';
 
 class HomeController {
-    constructor($scope) {
-        $scope.greeting = "hi";
+    constructor() {
     }
 }
 
-HomeController.$inject = ['$scope'];
+HomeController.$inject = [];
 
-app.controller('HomeController', HomeController);
+angular
+    .module('app')
+    .controller('HomeController', HomeController);
 
 export default HomeController;

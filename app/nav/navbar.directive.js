@@ -5,7 +5,7 @@ class NavbarDirective {
     constructor(){
         this.restrict = 'E';
         this.controller = NavbarController;
-        this.template = "<strong>hi</strong>";
+        this.templateUrl = 'app/nav/navbar.template.html';
     }
     
     link(scope, element, attr, ctr) {
