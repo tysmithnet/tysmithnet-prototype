@@ -31,7 +31,10 @@
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.0",
+    "gulp-live-server": "0.0.29",
     "gulp-sass": "^2.1.1",
-    "require-dir": "^0.3.0"
+    "live-server": "^0.9.1",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5"
   }
 }
