@@ -1,0 +1,12 @@
+{
+    "primary": {
+        "light": "#e5faff",
+        "med": "#00ceff",
+        "dark": "#00151a"
+    },
+    "secondary": {
+        "light": "#e5ffe5",
+        "med": "#33ff33",
+        "dark": "#001a00"
+    }
+}
