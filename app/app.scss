@@ -1,5 +1,9 @@
+@import '_colors';
+
 html, body {
     height: 100%;
+    background-color: $core-black;
+    color: $core-white;
 }
 
 @import './nav/nav';

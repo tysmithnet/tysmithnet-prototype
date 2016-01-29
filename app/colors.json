@@ -1,4 +1,8 @@
 {
+    "core": {
+        "black": "#0d0d0d",
+        "white": "f2f2f2"
+    },
     "primary": {
         "light": "#e5faff",
         "med": "#00ceff",
